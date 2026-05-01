@@ -7,16 +7,14 @@ test('mapFrameMetrics returns compact cards from observables', () => {
     observables: {
       energy_total: 299.5924,
       density_entropy: 5.6621,
-      cluster_count: 3,
-      recovery_steps: null
+      cluster_count: 3
     }
   });
 
   assert.deepEqual(cards.map((card) => card.key), [
     'energy_total',
     'density_entropy',
-    'cluster_count',
-    'recovery_steps'
+    'cluster_count'
   ]);
 });
 
@@ -25,13 +23,11 @@ test('mapFrameMetrics rounds values and degrades missing optional values gracefu
     observables: {
       energy_total: 299.5924,
       density_entropy: 5.6621,
-      cluster_count: 3,
-      recovery_steps: null
+      cluster_count: 3
     }
   });
 
   assert.equal(cards[0].displayValue, '299.6');
   assert.equal(cards[1].displayValue, '5.7');
   assert.equal(cards[2].displayValue, '3');
-  assert.equal(cards[3].displayValue, 'Not available');
 });

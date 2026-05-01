@@ -14,11 +14,6 @@ const METRIC_DEFINITIONS = [
     label: 'Cluster count',
     decimals: 0
   },
-  {
-    key: 'recovery_steps',
-    label: 'Recovery steps',
-    decimals: 0
-  }
 ];
 
 function isFiniteNumber(value) {
