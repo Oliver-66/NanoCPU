@@ -32,6 +32,41 @@ body {
   color: #4b5963;
 }
 
+.app-header__reading-line {
+  margin-top: 8px;
+  color: #30424f;
+}
+
+.app-explanation {
+  margin-top: 16px;
+  padding: 16px 18px;
+  border: 1px solid #c6d0d5;
+  border-radius: 14px;
+  background: #fbfcfc;
+  box-shadow: 0 8px 24px rgba(17, 30, 39, 0.05);
+}
+
+.app-explanation h2 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.app-explanation ul {
+  margin: 0 0 12px 18px;
+  padding: 0;
+  color: #30424f;
+}
+
+.app-explanation li {
+  margin: 4px 0;
+}
+
+.app-explanation p {
+  margin: 0;
+  color: #4b5963;
+}
+
 .replay-controls {
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;

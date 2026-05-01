@@ -1,8 +1,8 @@
 const LAYER_DEFINITIONS = [
-  { key: 'particles', shortLabel: 'Pt', title: 'Particles' },
-  { key: 'density', shortLabel: 'Dn', title: 'Density' },
-  { key: 'attractors', shortLabel: 'At', title: 'Attractors' },
-  { key: 'field', shortLabel: 'Fld', title: 'Field influence' }
+  { key: 'particles', shortLabel: 'Pt', title: 'Pt = Particles' },
+  { key: 'density', shortLabel: 'Dn', title: 'Dn = Density' },
+  { key: 'attractors', shortLabel: 'At', title: 'At = Attractors' },
+  { key: 'field', shortLabel: 'Fld', title: 'Fld = Field' }
 ];
 
 function isCallable(value) {

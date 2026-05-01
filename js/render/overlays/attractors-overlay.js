@@ -49,7 +49,7 @@ export function renderAttractorsOverlay(context, bundle, renderState) {
     const [x, y] = projected;
     const radius = Math.max(4, Math.min(12, 4 + ((attractor.radius ?? 0) * 2)));
 
-    drawCircle(context, x, y, radius, 'rgba(255, 244, 214, 0.9)', 'rgba(152, 111, 42, 0.85)');
-    drawCircle(context, x, y, Math.max(1.5, radius * 0.28), 'rgba(118, 77, 18, 0.92)');
+    drawCircle(context, x, y, radius, 'rgba(255, 246, 220, 0.96)', 'rgba(126, 84, 24, 0.95)');
+    drawCircle(context, x, y, Math.max(1.5, radius * 0.28), 'rgba(96, 60, 10, 0.98)');
   }
 }

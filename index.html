@@ -10,10 +10,20 @@
     <main class="app-shell">
       <header class="app-header">
         <h1>Synapse NanoCPU Showcase</h1>
-        <p>Replay of the public scenario, focused on how dispersed particle motion settles into convergence.</p>
+        <p>An experimental computation system where structure emerges from constraints rather than instructions.</p>
+        <p class="app-header__reading-line">This public replay shows dispersed particle motion settling into a stable attractor.</p>
       </header>
       <section class="app-stage" aria-label="Replay viewport">
         <canvas id="scene" width="960" height="540"></canvas>
+      </section>
+      <section class="app-explanation" aria-label="Project explanation">
+        <h2>What you are seeing</h2>
+        <ul>
+          <li>particles evolving under fixed constraints</li>
+          <li>visible field influence, density, and attractors</li>
+          <li>convergence toward a stable final structure</li>
+        </ul>
+        <p>In NanoCPU, the final stable structure is the result.</p>
       </section>
     </main>
     <script type="module" src="./js/app.js"></script>
