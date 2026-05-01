@@ -8,4 +8,6 @@ This project is distinct from Synapse Corp product work and is intended to becom
 
 ## Open the Visual Demo
 
-Launch `index.html` through a local static server or publish the contents of `public/` to GitHub Pages.
+Open the public showcase here: [https://oliver-66.github.io/NanoCPU/](https://oliver-66.github.io/NanoCPU/)
+
+You can also launch `index.html` through a local static server or publish the contents of `public/` to GitHub Pages.
